@@ -1,18 +1,18 @@
 Package: CalibratR
 Type: Package
 Title: Mapping ML Scores to Calibrated Predictions
-Version: 0.1.0
+Version: 0.1.1
 Author: Johanna Schwarz
-Maintainer: Johanna Schwarz <Schwar4m@students.uni-marburg.de>
+Maintainer: Dominik Heider <heiderd@mathematik.uni-marburg.de>
 Description: Transforms your uncalibrated Machine Learning scores to well-calibrated prediction estimates that can be interpreted as probability estimates. The implemented BBQ (Bayes Binning in Quantiles) model is taken from Naeini (2015, ISBN:0-262-51129-0).
 License: LGPL-3
 Encoding: UTF-8
 LazyData: true
 Depends: R (>= 2.10.0)
-Imports: ggplot2, pROC, reshape2, parallel, foreach, utils, stats,
+Imports: ggplot2, pROC, reshape2, parallel, foreach, stats,
         fitdistrplus, doParallel
 RoxygenNote: 6.0.1
 NeedsCompilation: no
-Packaged: 2018-08-08 22:52:08 UTC; Johanna
+Packaged: 2018-08-27 09:11:23 UTC; Johanna
 Repository: CRAN
-Date/Publication: 2018-08-11 22:10:03 UTC
+Date/Publication: 2018-08-27 09:56:41 UTC
