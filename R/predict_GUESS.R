@@ -15,6 +15,7 @@
 #' \item{dens_control}{a vector containing the p(x|control) values}
 #' @details \code{dens_case} and \code{dens_control} are only returned when \code{return_class_density} is set to TRUE
 #' @rdname predict_GUESS
+#' @export
 
 
 predict_GUESS <- function(build_guess_object, new, density_evaluation=2, return_class_density=FALSE){

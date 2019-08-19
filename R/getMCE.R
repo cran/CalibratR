@@ -5,6 +5,7 @@
 #' @param n_bins number of bins of the underlying equal-frequency histogram, Default: 10
 #' @return equal-frequency MCE value
 #' @rdname getMCE
+#' @export
 #' @importFrom graphics hist
 
 

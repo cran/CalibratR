@@ -1,10 +1,11 @@
 #' @title getECE
-#' @description Expected Calibration Error (ECE); the model is divided into 10 equal-width bins (default) and the mean of the observed (0/1) vs. mean of predicted is calculated per bin, weighted by emperical frequency of elements in bin i
+#' @description Expected Calibration Error (ECE); the model is divided into 10 equal-width bins (default) and the mean of the observed (0/1) vs. mean of predicted is calculated per bin, weighted by empirical frequency of elements in bin i
 #' @param actual vector of observed class labels (0/1)
 #' @param predicted vector of uncalibrated predictions
 #' @param n_bins number of bins of the underlying equal-frequency histogram, Default: 10
 #' @return equal-frequency ECE value
 #' @rdname getECE
+#' @export
 #' @importFrom graphics hist
 
 

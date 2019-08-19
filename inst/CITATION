@@ -1,0 +1,9 @@
+bibentry(bibtype = "article",
+         title = "{GUESS}: Projecting Machine Learning Scores to Well-Calibrated Probability Estimates for Clinical Decision Making",
+         author = c(person("Johanna", "Schwarz"),
+                    person("Dominik", "Heider")),
+	 journal = "Bioinformatics",
+         year = "2019",
+	 volume = "35",
+	 number = "14",
+	 pages = "2458-2465")

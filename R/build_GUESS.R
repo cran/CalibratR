@@ -6,6 +6,7 @@
 #' @seealso
 #'  \code{\link[fitdistrplus]{denscomp}}
 #' @rdname build_GUESS
+#' @export
 #' @importFrom fitdistrplus denscomp
 #' @importFrom stats median
 
